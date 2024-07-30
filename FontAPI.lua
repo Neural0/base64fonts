@@ -27,3 +27,5 @@ local Font = Font.new(RegisterFont(FONTNAME, 200, "normal", {
     Id = FONTNAME .. ".ttf",
     Font = crypt.base64.decode(FONTDATA)
 }))
+
+return Font
